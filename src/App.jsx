@@ -1,12 +1,12 @@
 import react from 'react'
 import './assets/style/GlobalStyle.css'
-import Home from './components/HomePage'
+import { AppRoutes } from './routes'
 
 function App() {
 
   return (
     <div className="web-App">
-      <Home />
+      <AppRoutes />
     </div>
   )
 }
