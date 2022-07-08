@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import PageNotFind from './pages/PageNotFind'
+import Sign from './pages/Sign'
 
 export function AppRoutes(){
     return (
@@ -12,7 +13,7 @@ export function AppRoutes(){
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/home' element={<HomePage />} />
-                <Route path='/sign' element={<HomePage />} />
+                <Route path='/sign' element={<Sign />} />
                 <Route path='*' element={<PageNotFind />} />
             </Routes>
         </Router>
