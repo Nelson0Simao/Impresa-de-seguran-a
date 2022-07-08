@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.web-App{
+  background: #FFFFFF;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

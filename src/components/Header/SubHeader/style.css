@@ -1,0 +1,40 @@
+.SubHeader{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+}
+.SubHeader > div ul li:first-child{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 16px;
+    color:#222222;
+}
+.logo-main{
+    margin-right: 4rem;
+}
+.SubHeader .el-items-header div img{
+    max-width: 32px;
+    height: 32px;
+    margin: 0 1rem;
+}
+.SubHeader .el-items-header > div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+}
+.SubHeader > div ul li{
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 14px;
+    color:#777777;
+}
+.SubHeader > div ul li:not(:first-child):hover{
+    color:#23527c;
+}
+.el-items-header{
+    display: flex;
+    margin-top:2rem;
+}

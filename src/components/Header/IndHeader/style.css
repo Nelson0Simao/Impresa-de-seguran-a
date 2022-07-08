@@ -1,0 +1,41 @@
+.ul-el-list li{
+    color:#222222;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-right: 1rem;
+}
+.ul-el-list .line-el li{
+    border-top: solid 2px #ffffff;
+    padding: 1.4rem .5rem;
+}
+.ul-el-list .line-el li:hover{
+    border-top: solid 2px #cc4934;
+    padding: 1.4rem .5rem;
+}
+.view-el img{
+    position: relative;
+    cursor: pointer;
+}
+.view-el span{
+    position: relative;
+    bottom:28px;
+    right: 130px;
+    color:#FFFFFF;
+}
+.line-el{
+    border-top:solid 1px #dddd;
+    margin-right: 1rem;
+}
+.ul-el-list, .line-el{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+.ul-display{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
