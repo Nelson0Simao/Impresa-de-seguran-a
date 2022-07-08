@@ -1,0 +1,67 @@
+.btn-send{
+    background:#cc4934;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    font-weight: "Lato", sans-serif;
+    color:#FFFFFF;
+    border: solid 2px #cc4934;
+}
+.FormElem{
+    margin-top: 1vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.btn-send:hover{
+    background:#00000000;
+    color:#cc4934;
+    border: solid 2px #cc4934;
+}
+.Elem-form ul li input{
+    color:#1c1c1c;
+}
+.bgImg{
+    width: 80vw;
+    position: absolute;
+    height: 15vh;
+}
+.Elem-form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.Elem-form ul{
+    margin: 0 2rem;
+}
+.Elem-form ul li img{
+    margin-left: 2rem;
+}
+.Elem-form ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 1rem;
+}
+.Elem-form ul li input{
+    border:none;
+    background:#00000000;
+    border-bottom: solid 2px #adabab;
+    padding: .5rem;
+} 
+.Elem-form ul li input:hover{
+    border-bottom: solid 2px #cc4934;
+} 
+.Elem-form select{
+    width: 100%;
+    background:#00000000;
+    border:none;
+    border-bottom: solid 2px #adabab;
+    padding: .5rem;
+    /*color:#cc4934;*/
+}
+.btn-send{
+    width: 100%;
+    padding: .5rem;
+} 

@@ -747,6 +747,11 @@ update-browserslist-db@^1.0.4:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 vite@^2.9.9:
   version "2.9.13"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.13.tgz#859cb5d4c316c0d8c6ec9866045c0f7858ca6abc"
@@ -758,3 +763,8 @@ vite@^2.9.9:
     rollup "^2.59.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+web-vitals@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
+  integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
