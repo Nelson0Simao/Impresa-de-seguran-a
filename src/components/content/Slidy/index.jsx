@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import slidy1 from '@/assets/img/slidy-5.png'
-import slidy from './../../../assets/img/fundo-diferenciais-18199-VSG_8432_EDIT.jpg'
-//import './styles.css';
+import slidy1 from '/home/SrRoot/Documents/gitClone/impresa-de-seguranca/src/assets/img/slidy-1.png'
+import slidy2 from '/home/SrRoot/Documents/gitClone/impresa-de-seguranca/src/assets/img/slidy-2.png'
+import slidy3 from '/home/SrRoot/Documents/gitClone/impresa-de-seguranca/src/assets/img/slidy-3.png'
 
 function Slidy() {
   return (
@@ -22,7 +22,7 @@ function Slidy() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={slidy}
+      src={slidy2}
       alt="Second slide"
     />
 
@@ -34,7 +34,7 @@ function Slidy() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={slidy}
+      src={slidy3}
       alt="Third slide"
     />
 
