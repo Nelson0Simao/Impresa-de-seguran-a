@@ -1,0 +1,27 @@
+.row-el{
+    color:#FFFFFF;
+}
+.row-el:hover{
+    color:#000;
+}
+.button-el{
+    width: 40px;
+    height: 40px;
+    padding: .5rem;
+    background:#cc4934;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 99999;
+    position: fixed;
+    border-radius: 100%;
+    top: 500px;
+    right: 20px;
+    transition: 1s;
+}
+.button-el:hover{
+    transition: 1s;
+    width: 45px;
+    height: 45px;
+    right: 15px;
+}
