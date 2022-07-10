@@ -1,14 +1,12 @@
 import React from 'react'
 import './style.css'
-import iconFacebook from './../../../assets/img/facebook.png'
-import iconInstagram from './../../../assets/img/instagram.png'
 
 export default function FirsHeader() {
   return (
     <header className='header'>
     <ul className='box-el-1'>
-        <li><img src={iconFacebook} alt="Facebook" /></li>
-        <li><img src={iconInstagram} alt="Instagram" /></li>
+        <li><i class="fa fa-facebook" aria-hidden="true" style={{color:"#FFFFFF"}}></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true" style={{color:"#FFFFFF"}}></i></li>
     </ul>
     <ul className='box-el-2'>
         <li><a href=''>TRABALHE CONOSCO</a></li>

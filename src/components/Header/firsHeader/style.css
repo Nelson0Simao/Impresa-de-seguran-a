@@ -8,7 +8,12 @@
 .header .box-el-1 li{
     border: solid 1px #FFFFFF;
     margin-right: 1rem;
-    padding: 5px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 2.5vw;
+
 }
 .header .box-el-1 li:hover{
     border: solid 1px #cc4934;
