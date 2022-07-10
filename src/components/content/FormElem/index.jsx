@@ -5,6 +5,7 @@ import  ImgUser from './../../../assets/img/user-free-icon-font.png'
 import ImgSMS from './../../../assets/img/envelope-free-icon-font (1).png'
 import ImgWhatsApp from './../../../assets/img/whatsapp-free-icon-font.png'
 import ImgCalendary from './../../../assets/img/calendar-free-icon-font.png'
+import Button from 'react-bootstrap/Button'
 
 export default function FormElem() {
   return (
@@ -18,8 +19,8 @@ export default function FormElem() {
                     <option value="saab">Saab</option>
                     <option value="opel">Opel</option>
                     <option value="audi">Audi</option>
-                    
                 </select>
+                    <Button name="Nelson"/>
             </ul>
             <ul>
                 <li><input type='text' placeholder='E-mail'/> <img src={ImgSMS} alt='icon'/></li>

@@ -1,10 +1,12 @@
 import React from 'react'
-import MainViews from './mainViews'
+import FormElem from '../content/FormElem'
+import Slidy from '../content/Slidy'
 
 export default function main() {
   return (
     <>
-      <MainViews />
+    <Slidy />
+    <FormElem />
     </>
   )
 }
